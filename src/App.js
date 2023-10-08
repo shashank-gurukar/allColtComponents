@@ -1,10 +1,12 @@
-import CoinContainer  from './coinContainer';
+
 import './App.css';
+
+import BoxContainer from './BoxContainer';
 
 function App() {
   return (
     <div className="App">
-     <CoinContainer/>
+     <BoxContainer num={20}/>
     </div>
   );
 }
