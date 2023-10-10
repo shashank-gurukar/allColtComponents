@@ -1,12 +1,11 @@
 
 import './App.css';
-
-import BoxContainer from './BoxContainer';
-
+import BoxForm from './BoxFrom';
+import BoxList from './Boxlist';
 function App() {
   return (
     <div className="App">
-     <BoxContainer num={20}/>
+     <BoxList/>
     </div>
   );
 }
